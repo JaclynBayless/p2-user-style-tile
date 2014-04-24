@@ -1,9 +1,42 @@
 /* Set Your Own Margin & Padding */
-h2, h3, p {
-	margin: 0;
+h1, h2, h3, p {
+	margin: 10px 0px;
 }
 
 /* Layout for Style Tile*/
+div .stuff {
+	width: 1%;
+	height: auto;
+}
+
+h1 {
+	font-family: 'Merriweather Sans', 'sans-serif';
+	font-weight: 800;
+	color: #49557F;
+}
+
+h2 {
+	font-family: 'Merriweather Sans', 'sans-serif';
+	font-weight: 700;
+	color: #70737F;
+}
+
+h3 {
+	font-family: 'Merriweather Sans', 'sans-serif';
+	font-weight: 400;
+	color: #70737F;
+}
+
+p,
+em {
+	font-family: 'Merriweather Sans', 'sans-serif';
+	font-weight: 300;
+}
+
+a {
+	color:#49557F;
+}
+
 section {
 	margin: 20px 0;
 }
@@ -19,8 +52,27 @@ section {
 	margin: 0 10px;
 	height: 50px;
 	width: 50px;
+	overflow: hidden;
 }
 
+.color-1 {
+	background: #70737F;
+}
+
+.color-2 {
+	background: #49557F;
+}
+
+.color-3 {
+	background: #FFFFFF;
+}
+
+.logo {
+	width: 200px;
+	height: 200px;
+	max-width: 100%; 
+	max-height: 100%;
+}
 
 /* Show Grid */
 .showgrid {
